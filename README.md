@@ -9,7 +9,7 @@ El objetivo del proyecto es demostrar cómo construir una canalización ELT (Ext
 
 Fuente: [docs.snowflake.com/en/user-guide/sample-data-tpch](https://docs.snowflake.com/en/user-guide/sample-data-tpch)
 
-### Tech Stack
+## Tech Stack
 - Python
 - Airflow
 - Docker
@@ -19,7 +19,7 @@ Fuente: [docs.snowflake.com/en/user-guide/sample-data-tpch](https://docs.snowfla
 - YAML
 - Astronomer Cosmos
 
-### Setup de Snowflake
+## Setup de Snowflake
 
 #### Worksheet
 
@@ -37,7 +37,7 @@ Fuente: [docs.snowflake.com/en/user-guide/sample-data-tpch](https://docs.snowfla
 
 ![folders](https://github.com/rodrigosvv/db-snowflake-elt-pipeline/assets/143859478/1d96211a-fb0f-46d9-a6e8-d840e7d9e910)
 
-### Creación de source y staging tables
+## Creación de source y staging tables
 
 #### Source 
 ![sourcers](https://github.com/rodrigosvv/db-snowflake-elt-pipeline/assets/143859478/31b64687-ee38-4906-bbb5-c5ec59300419)
@@ -46,7 +46,7 @@ Fuente: [docs.snowflake.com/en/user-guide/sample-data-tpch](https://docs.snowfla
 ![stg_orders](https://github.com/rodrigosvv/db-snowflake-elt-pipeline/assets/143859478/727b3ff3-9976-4e68-b05c-ec84db06168e)
 ![stg_lineitems](https://github.com/rodrigosvv/db-snowflake-elt-pipeline/assets/143859478/12652ed7-1d36-40c2-9d26-b371cf2af71e)
 
-### Modelos transformados: Fact tables y Data marts
+## Modelos transformados: Fact tables y Data marts
 
 #### Fact Table
 ![facttable](https://github.com/rodrigosvv/db-snowflake-elt-pipeline/assets/143859478/2477af40-19c8-44cd-8d04-0fe88f0187d4)
@@ -59,7 +59,7 @@ Fuente: [docs.snowflake.com/en/user-guide/sample-data-tpch](https://docs.snowfla
 
 ![Macro](https://github.com/rodrigosvv/db-snowflake-elt-pipeline/assets/143859478/d087dd02-e64b-469f-964a-27e53f88ea20)
 
-### Generic y Singular Tests
+## Generic y Singular Tests
 
 #### Generic Test
 
@@ -89,7 +89,7 @@ Fuente: [docs.snowflake.com/en/user-guide/sample-data-tpch](https://docs.snowfla
 
 ![Snowflake_conn](https://github.com/rodrigosvv/db-snowflake-data-pipeline/assets/143859478/b44de06d-e6fe-4f27-a907-f04fcb65d159)
 
-### ¡Data Pipeline en acción!
+## ¡Data Pipeline en acción!
 
 ![Pipeline success](https://github.com/rodrigosvv/db-snowflake-data-pipeline/assets/143859478/094ab72b-e52c-4352-9cb4-2c1d2109e466)
 
