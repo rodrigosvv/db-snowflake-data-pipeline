@@ -7,6 +7,8 @@ El objetivo del proyecto es demostrar cómo construir una canalización ELT (Ext
 
 <img width="615" alt="sample-data-tpch-schema" src="https://github.com/rodrigosvv/db-snowflake-elt-pipeline/assets/143859478/3f597068-4094-433c-a519-fb5612c348b5">
 
+Fuente: docs.snowflake.com/en/user-guide/sample-data-tpch
+
 ### Tech Stack
 - Python
 - Airflow
