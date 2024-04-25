@@ -71,11 +71,14 @@ Fuente: [docs.snowflake.com/en/user-guide/sample-data-tpch](https://docs.snowfla
 
 ![singultartest_2](https://github.com/rodrigosvv/db-snowflake-elt-pipeline/assets/143859478/c68a7eed-8991-4856-8766-1643b3daf492)
 
-### Deploy usando Airflow y Astronomer Cosmos
+## Deploy usando Airflow y Astronomer Cosmos
 
-#### Modificar Docker file y Requirements file
+### Modificar Docker file y Requirements file
 
+#### Docker File
 ![Docker environment](https://github.com/rodrigosvv/db-snowflake-elt-pipeline/assets/143859478/7455a833-ee0c-404e-b3ae-13c7c46704b7)
+
+#### Requirements File
 ![requerimientos](https://github.com/rodrigosvv/db-snowflake-elt-pipeline/assets/143859478/c68b2da7-d167-49d9-871f-dc9fe58569c8)
 
 #### Creación del DAG: dbt_dag.py
